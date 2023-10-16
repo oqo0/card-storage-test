@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/oqo0/RiderProjects/CardStorage/PatternsSample/PatternsSample.csproj": {}
+  },
+  "projects": {
+    "/home/oqo0/RiderProjects/CardStorage/PatternsSample/PatternsSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/oqo0/RiderProjects/CardStorage/PatternsSample/PatternsSample.csproj",
+        "projectName": "PatternsSample",
+        "projectPath": "/home/oqo0/RiderProjects/CardStorage/PatternsSample/PatternsSample.csproj",
+        "packagesPath": "/home/oqo0/.nuget/packages/",
+        "outputPath": "/home/oqo0/RiderProjects/CardStorage/PatternsSample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/oqo0/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/home/oqo0/.nuget/local_packages/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.19.200, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

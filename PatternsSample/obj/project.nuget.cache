@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "2ANjgl36ilKXvZ7HhmphroQKum5B4txg5U42hIvavbZGtsDzNZcsxyzD1m7Cb9KGjOG5dD9hI7TJ7+qahDexzQ==",
+  "success": true,
+  "projectFilePath": "/home/oqo0/RiderProjects/CardStorage/PatternsSample/PatternsSample.csproj",
+  "expectedPackageFiles": [
+    "/home/oqo0/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/oracle.manageddataaccess.core/2.19.200/oracle.manageddataaccess.core.2.19.200.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/system.configuration.configurationmanager/6.0.0/system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/system.diagnostics.performancecounter/6.0.1/system.diagnostics.performancecounter.6.0.1.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/system.directoryservices/6.0.1/system.directoryservices.6.0.1.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/system.directoryservices.protocols/6.0.1/system.directoryservices.protocols.6.0.1.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/system.security.accesscontrol/6.0.0/system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/system.security.cryptography.protecteddata/6.0.0/system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/system.security.permissions/6.0.0/system.security.permissions.6.0.0.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
+    "/home/oqo0/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.22/microsoft.netcore.app.host.linux-x64.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

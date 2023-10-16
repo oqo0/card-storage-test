@@ -1,0 +1,348 @@
+2023-10-15 16:35:26.8954|4|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views. |url: |action: 
+2023-10-15 16:35:26.9974|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider |url: |action: 
+2023-10-15 16:35:27.0713|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting |url: |action: 
+2023-10-15 16:35:27.0873|62|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/home/oqo0/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. |url: |action: 
+2023-10-15 16:35:27.0931|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file '/home/oqo0/.aspnet/DataProtection-Keys/key-36764b8c-05b1-4190-91c1-5098649cd381.xml'. |url: |action: 
+2023-10-15 16:35:27.1003|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {36764b8c-05b1-4190-91c1-5098649cd381}. |url: |action: 
+2023-10-15 16:35:27.1217|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {36764b8c-05b1-4190-91c1-5098649cd381} with expiration date 2023-11-26 12:23:12Z as default key. |url: |action: 
+2023-10-15 16:35:27.1249|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 |url: |action: 
+2023-10-15 16:35:27.1288|11|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'. |url: |action: 
+2023-10-15 16:35:27.1288|10|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'. |url: |action: 
+2023-10-15 16:35:27.1429|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {36764b8c-05b1-4190-91c1-5098649cd381} as the default key. |url: |action: 
+2023-10-15 16:35:27.1440|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {36764b8c-05b1-4190-91c1-5098649cd381} was loaded during application startup. |url: |action: 
+2023-10-15 16:35:27.1891|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:7003 |url: |action: 
+2023-10-15 16:35:27.1916|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LQ" received FIN. |url: |action: 
+2023-10-15 16:35:27.2104|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5194 |url: |action: 
+2023-10-15 16:35:27.2104|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LQ" accepted. |url: |action: 
+2023-10-15 16:35:27.2104|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly CardStorage |url: |action: 
+2023-10-15 16:35:27.2154|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2023-10-15 16:35:27.2154|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LQ" started. |url: |action: 
+2023-10-15 16:35:27.2154|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2023-10-15 16:35:27.2154|0|INFO|Microsoft.Hosting.Lifetime|Content root path: /home/oqo0/RiderProjects/CardStorage/CardStorage/ |url: |action: 
+2023-10-15 16:35:27.2154|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started |url: |action: 
+2023-10-15 16:35:27.2380|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LQ" sending FIN because: "The Socket transport's send loop completed gracefully." |url: |action: 
+2023-10-15 16:35:27.2508|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LQ" disconnecting. |url: |action: 
+2023-10-15 16:35:27.2577|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LQ" stopped. |url: |action: 
+2023-10-15 16:35:28.8669|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LR" accepted. |url: |action: 
+2023-10-15 16:35:28.8674|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LR" started. |url: |action: 
+2023-10-15 16:35:29.0076|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LR" received FIN. |url: |action: 
+2023-10-15 16:35:29.0076|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LR" sending FIN because: "The Socket transport's send loop completed gracefully." |url: |action: 
+2023-10-15 16:35:29.0139|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LR" disconnecting. |url: |action: 
+2023-10-15 16:35:29.0593|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:7003/swagger - - |url: http://localhost/swagger|action: 
+2023-10-15 16:35:29.0628|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. |url: http://localhost/swagger|action: 
+2023-10-15 16:35:29.0632|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. |url: http://localhost/swagger|action: 
+2023-10-15 16:35:29.1430|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:7003/swagger - - - 0 - - 86.3903ms |url: http://localhost/swagger|action: 
+2023-10-15 16:35:29.1496|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LR" stopped. |url: |action: 
+2023-10-15 16:35:29.2204|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LS" accepted. |url: |action: 
+2023-10-15 16:35:29.2204|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LS" started. |url: |action: 
+2023-10-15 16:35:29.2434|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:7003/swagger/index.html - - |url: http://localhost/swagger/index.html|action: 
+2023-10-15 16:35:29.2434|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. |url: http://localhost/swagger/index.html|action: 
+2023-10-15 16:35:29.3869|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LS" completed keep alive response. |url: http://localhost/swagger/index.html|action: 
+2023-10-15 16:35:29.3873|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:7003/swagger/index.html - - - 200 - text/html;charset=utf-8 143.8098ms |url: http://localhost/swagger/index.html|action: 
+2023-10-15 16:35:29.8908|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LT" accepted. |url: |action: 
+2023-10-15 16:35:29.8908|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LT" started. |url: |action: 
+2023-10-15 16:35:29.8923|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:7003/themes/_base.css - - |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:29.8923|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:29.8923|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:7003/swagger/swagger-ui.css - - |url: http://localhost/swagger/swagger-ui.css|action: 
+2023-10-15 16:35:29.8923|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. |url: http://localhost/swagger/swagger-ui.css|action: 
+2023-10-15 16:35:29.8923|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LS" received FIN. |url: |action: 
+2023-10-15 16:35:29.8923|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LS" sending FIN because: "The Socket transport's send loop completed gracefully." |url: |action: 
+2023-10-15 16:35:29.8934|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LS" disconnecting. |url: |action: 
+2023-10-15 16:35:29.8963|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LU" accepted. |url: |action: 
+2023-10-15 16:35:29.8963|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LU" started. |url: |action: 
+2023-10-15 16:35:29.8963|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:7003/themes/universal-dark.css - - |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:29.8963|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:29.8972|3|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:29.8972|5|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /themes/_base.css does not match an existing file |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:29.8972|3|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:29.8972|5|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /themes/universal-dark.css does not match an existing file |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:29.8984|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. |url: http://localhost/swagger/swagger-ui.css|action: 
+2023-10-15 16:35:29.9023|14|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()|url: http://localhost/swagger/swagger-ui.css|action: 
+2023-10-15 16:35:29.9159|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' |url: http://localhost/swagger/swagger-ui.css|action: 
+2023-10-15 16:35:29.9162|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:7003/swagger/swagger-ui.css - - - 0 144929 text/css 23.4583ms |url: http://localhost/swagger/swagger-ui.css|action: 
+2023-10-15 16:35:29.9162|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LS" stopped. |url: |action: 
+2023-10-15 16:35:29.9794|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/themes/_base.css' |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:29.9794|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/themes/universal-dark.css' |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:29.9804|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /themes/_base.css' |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:29.9804|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /themes/universal-dark.css' |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.0817|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.0817|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.0991|6|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.0991|6|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.1002|1|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /themes/_base.css
+QueryString: 
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:7003
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+Referer: [Redacted]
+DNT: 1
+Sec-Fetch-Dest: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Site: [Redacted] |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.1001|1|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /themes/universal-dark.css
+QueryString: 
+Accept: text/css,*/*;q=0.1
+Connection: keep-alive
+Host: localhost:7003
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+Referer: [Redacted]
+DNT: 1
+Sec-Fetch-Dest: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Site: [Redacted] |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.1020|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /themes/_base.css' |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.1020|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /themes/universal-dark.css' |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.1071|1|INFO|Microsoft.AspNetCore.Http.Result.ContentResult|Executing ContentResult with HTTP Response ContentType of text/css |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.1072|1|INFO|Microsoft.AspNetCore.Http.Result.ContentResult|Executing ContentResult with HTTP Response ContentType of text/css |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.1082|2|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: text/css
+Cache-Control: [Redacted]
+Expires: Tue, 17 Oct 2023 13:35:30 GMT
+Content-Length: 1534 |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.1082|2|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: text/css
+Cache-Control: [Redacted]
+Expires: Tue, 17 Oct 2023 13:35:30 GMT
+Content-Length: 10042 |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.1151|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /themes/universal-dark.css' |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.1151|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /themes/_base.css' |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.1191|4|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: /* https://github.com/oqo0/swagger-dark-theme */
+
+:root {
+    /* primary colors */
+    --swagger-color: #62a03f;
+    --link-color: #4e9fff;
+    --accept-header-color: #61cc6a;
+
+    /* methods colors */
+    --post-method-color: rgb(73, 204, 95);
+    --post-method-background-color: rgba(73, 204, 95, .1);
+    --get-method-color: rgb(97, 175, 254);
+    --get-method-background-color: rgba(97, 175, 254, .1);
+    --head-method-color: rgb(144, 18, 254);
+    --head-method-background-color: rgba(144, 18, 254, .1);
+    --put-method-color: rgb(252, 161, 48);
+    --put-method-background-color: rgba(252, 161, 48, .1);
+    --delete-method-color: rgb(249, 62, 62);
+    --delete-method-background-color: rgba(249, 62, 62, .1);
+    --options-method-color: rgb(25, 123, 220);
+    --options-method-background-color: rgba(25, 123, 220, 0.1);
+    --patch-method-color: rgb(80, 227, 194);
+    --patch-method-background-color: rgba(80, 227, 194, .1);
+
+    /* background */
+    --all-bg-color: #121212;
+    --secondary-bg-color: #181818;
+    --header-bg-color: #202020;
+    --block-bg-color: #202020;
+    --selecter-bg-color: #202020;
+
+    /* text */
+    --primary-text-color: rgba(255, 255, 255, 1.00);
+    --secondary-text-color: rgba(255, 255, 255, 0.40);
+
+    /* border */
+    --block-border-color: rgba(255, 255, 255, 0.06);
+    --block-border-radius: 8px;
+    --innner-block-border-radius: 4px;
+
+    /* icons */
+    --primary-icon-color: #ffffff;
+    --icons-opacity: .32;
+    --secondary-icon-opacity: .6;
+    --black-icons-filter: invert(1);
+} |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.1191|4|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: @media (prefers-color-scheme: dark) {
+
+    /* primary colors */
+
+    .swagger-ui .topbar .download-url-wrapper .select-label select {
+        border: 2px solid var(--swagger-color);
+    }
+
+    .swagger-ui .info .title small.version-stamp {
+        background-color: var(--swagger-color);
+    }
+
+    .swagger-ui .info a {
+        color: var(--link-color);
+    }
+
+    .swagger-ui .response-control-media-type--accept-controller select {
+        border-color: var(--accept-header-color);
+    }
+
+    .swagger-ui .response-control-media-type__accept-message {
+        color: var(--accept-header-color);
+    }
+
+    .swagger-ui .btn.authorize {
+        color: var(--post-method-color);
+    }
+
+    .swagger-ui .btn.authorize {
+        border-color: var(--post-method-color);
+    }
+
+    .swagger-ui .btn.authorize svg {
+        fill: var(--post-method-color);
+    }
+
+    /* methods colors */
+    /* http post */
+
+    .swagger-ui .opblock.opblock-post .opblock-summary-method {
+        background: var(--post-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-post .opblock-summary {
+        border-color: var(--post-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-post {
+        background: var(--post-method-background-color);
+        border-color: var(--post-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-post .tab-header .tab-item.active h4 span::after {
+        background: var(--post-method-color);
+    }
+
+    /* http get */
+
+    .swagger-ui .opblock.opblock-get .opblock-summary-method {
+        background: var(--get-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-get .opblock-summary {
+        border-color: var(--get-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-get {
+        background: var(--get-method-background-color);
+        border-color: var(--get-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-get .tab-header .tab-item.active h4 span::after {
+        background: var(--get-method-color);
+    }
+
+    /* http head */
+
+    .swagger-ui .opblock.opblock-head .opblock-summary-method {
+        background: var(--head-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-head .opblock-summary {
+        border-color: var(--head-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-head {
+        background: var(--head-method-background-color);
+        border-color: var(--head-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-head .tab-header .tab-item.active h4 span::after {
+        background: var(--head-method-color);
+    }
+
+    /* http put */
+
+    .swagger-ui .opblock.opblock-put .opblock-summary-method {
+        background: var(--put-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-put .opblock-summary {
+        border-color: var(--put-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-put {
+        background: var(--put-method-background-color);
+        border-color: var(--put-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-put .tab-header .tab-item.active h4 span::after {
+        background: var(--put-method-color);
+    }
+
+    /* http delete */
+
+    .swagger-ui .opblock.opblock-delete .opblock-summary-method {
+        background: var(--delete-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-delete .opblock-summary {
+        border-color: var(--delete-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-delete {
+        background: var(--delete-method-background-color);
+        border-color: var(--delete-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-delete .tab-header .tab-item.active h4 span::after {
+        background: var(--delete-method-color);
+    }
+
+    /* http options */
+
+    .swagger-ui .opblock.opblock-options .opblock-summary-method {
+        background: var(--options-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-options .opblock-summary {
+        border-color: var(--options-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-options {
+        background: var(--options-method-background-color);
+        border-color: var(--options-method-color);
+    }
+
+    .swagger-ui .opblock.opblock-options .tab-header .tab-item.active h4 span::after {
+      |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.1195|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LT" completed keep alive response. |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.1195|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:7003/themes/_base.css - - - 200 10042 text/css 227.3848ms |url: http://localhost/themes/_base.css|action: 
+2023-10-15 16:35:30.1247|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LU" completed keep alive response. |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.1247|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:7003/themes/universal-dark.css - - - 200 1534 text/css 228.0777ms |url: http://localhost/themes/universal-dark.css|action: 
+2023-10-15 16:35:30.4373|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:7003/swagger/favicon-16x16.png - - |url: http://localhost/swagger/favicon-16x16.png|action: 
+2023-10-15 16:35:30.4373|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. |url: http://localhost/swagger/favicon-16x16.png|action: 
+2023-10-15 16:35:30.4373|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. |url: http://localhost/swagger/favicon-16x16.png|action: 
+2023-10-15 16:35:30.4390|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LT" received FIN. |url: |action: 
+2023-10-15 16:35:30.4390|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LT" sending FIN because: "The Socket transport's send loop completed gracefully." |url: |action: 
+2023-10-15 16:35:30.4392|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' |url: http://localhost/swagger/favicon-16x16.png|action: 
+2023-10-15 16:35:30.4392|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LT" disconnecting. |url: |action: 
+2023-10-15 16:35:30.4392|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LT" completed keep alive response. |url: http://localhost/swagger/favicon-16x16.png|action: 
+2023-10-15 16:35:30.4392|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:7003/swagger/favicon-16x16.png - - - 200 665 image/png 2.2940ms |url: http://localhost/swagger/favicon-16x16.png|action: 
+2023-10-15 16:35:30.4392|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LT" stopped. |url: |action: 
+2023-10-15 16:35:30.4762|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:7003/swagger/v1/swagger.json - - |url: http://localhost/swagger/v1/swagger.json|action: 
+2023-10-15 16:35:30.4763|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. |url: http://localhost/swagger/v1/swagger.json|action: 
+2023-10-15 16:35:30.5681|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LU" received FIN. |url: |action: 
+2023-10-15 16:35:30.5682|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUDGEBQI5LU" sending FIN because: "The Socket transport's send loop completed gracefully." |url: |action: 
+2023-10-15 16:35:30.5682|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LU" disconnecting. |url: |action: 
+2023-10-15 16:35:30.7554|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:7003/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 279.2736ms |url: http://localhost/swagger/v1/swagger.json|action: 
+2023-10-15 16:35:30.7554|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUDGEBQI5LU" stopped. |url: |action: 
+2023-10-15 16:35:31.2887|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2023-10-15 16:35:31.2922|3|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping |url: |action: 
+2023-10-15 16:35:31.3264|4|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped |url: |action: 

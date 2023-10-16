@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "CardStorageServiceProtos";
+
+service ClientService {
+  rpc Create (CreateClientRequest) returns (CreateClientResponse);
+}
+
+service CardService {
+  rpc GetByClientId (GetByClientIdRequest) returns (GetByClientIdResponse);
+}
+
+message CreateClientRequest {
+  string FirstName = 1;
+  string SureName = 2;
+}
+
+message CreateClientResponse {
+  uint64 ClientId = 1;
+}
+
+message GetByClientIdRequest {
+  uint64 ClientId = 1;
+}
+
+message GetByClientIdResponse {
+  repeated Card Cards = 1;
+}
+
+message Card {
+  int64 CardId = 1;
+  string Name = 2;
+  int32 CVV2 = 3;
+  string ExpDate = 4;
+}

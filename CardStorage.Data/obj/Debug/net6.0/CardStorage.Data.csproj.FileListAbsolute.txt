@@ -1,0 +1,14 @@
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/bin/Debug/net6.0/CardStorage.Data.deps.json
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/bin/Debug/net6.0/CardStorage.Data.runtimeconfig.json
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/bin/Debug/net6.0/CardStorage.Data.dll
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/bin/Debug/net6.0/CardStorage.Data.pdb
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/CardStorage.Data.csproj.AssemblyReference.cache
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/CardStorage.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/CardStorage.Data.AssemblyInfoInputs.cache
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/CardStorage.Data.AssemblyInfo.cs
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/CardStorage.Data.csproj.CoreCompileInputs.cache
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/CardStorage.Data.dll
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/ref/CardStorage.Data.dll
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/CardStorage.Data.pdb
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/CardStorage.Data.genruntimeconfig.cache
+/home/oqo0/RiderProjects/CardStorage/CardStorage.Data/obj/Debug/net6.0/refint/CardStorage.Data.dll

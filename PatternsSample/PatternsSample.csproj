@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="MySqlConnector">
+        <HintPath>..\..\..\.nuget\packages\mysqlconnector\2.1.2\lib\net6.0\MySqlConnector.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.200" />
+    </ItemGroup>
+
+</Project>
